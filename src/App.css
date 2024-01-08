@@ -7,12 +7,108 @@
   pointer-events: none;
 }
 
+.logo {
+  color: #fc8019;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.carouse-sub-text{
+font-size: 18px;
+  opacity: 0.7;
+  margin-top: 5px;
+color: black;
+}
+
+.mark-lunch{
+  background-color:#fc8019;
+  color: white;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mark-lunch:hover{
+  color: white;
+  opacity: 0.9;
+}
+
+option{
+  opacity: 0.4;
+}
+
+.card-body{
+  padding: 0;
+}
+
+.date-input{
+  margin-bottom: 5px;
+}
+.dropdown{
+  padding: 7px;
+  width: 100%;
+  border: 1px solid #dfdfdf;
+}
+
+.dropdown:hover{
+  outline: none;
+    border: 1px solid #dfdfdf;
+}
+
+.carouse-text{
+font-size: 24px;
+  font-weight: 600;
+  opacity: 0.9;
+  color: black;
+}
+
+.marked-lunch-section{
+  background-color: #fffcbf;
+  border-radius: 16px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.back-btn{
+  padding : 10px;
+  border: 1px solid #dfdfdf;
+  outline-color: none}
+
+.back-text, .back-icon{
+color: coral;
+}
+
+.marked-text-color{
+  text-decoration: underline wave;
+}
+
+.thumb-icon{
+  color : #fc8019;
+  margin-top: 50px;
+  margin-right: 4px;
+}
+
+.marked-lunch-text{
+  color: #fc8019;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 50px;
+  letter-spacing: 1px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+ p{
+  color: white;
+ }
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +132,4 @@
     transform: rotate(360deg);
   }
 }
+
